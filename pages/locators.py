@@ -21,5 +21,5 @@ class ProductPageLocators():
     SUCCESS_BASKET_TOTAL = (By.CSS_SELECTOR, ".alert-info .alertinner strong")
 
 class BasketPageLocators():
-    BASKET_ITEMS = (By.CSS_SELECTOR, ".basket_items")
+    BASKET_ITEMS = (By.CSS_SELECTOR, ".basket-items")
     EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, ".content p")
